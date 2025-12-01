@@ -4,7 +4,7 @@ A dedicated learner on a continuous journey in geospatial science, GIS, remote s
 * email fatimafilza.cac@pu.edu.pk
 
 ##### image of me 
-![Mississippi Delta](https://deltax.jpl.nasa.gov/img/delta-google-earth.jpg)
+![Geospatial World](https://geospatialworld.net/wp-content/uploads/2023/07/857137_geospatial-1.jpg)
 
 #### Educational Background
 
