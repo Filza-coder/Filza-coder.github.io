@@ -27,7 +27,7 @@
 
   <ul>
     <li>📍 Lahore, Pakistan</li>
-    <li>🎓 MS GIS & Remote Sensing – NUST (In progress)</li>
+    <li>🎓 MS GIS & Remote Sensing – NUST </li>
     <li>🎓 BS Space Sciences – Punjab University (3rd Position)</li>
     <li>✉️ <code>youremail@example.com</code></li>
     <li>🌐 <a href="https://your-portfolio-site">your-portfolio-site</a></li>
