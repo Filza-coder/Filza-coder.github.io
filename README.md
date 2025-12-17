@@ -117,8 +117,7 @@
   |------------------|--------|------|--------|------------|
   | **National University of Science and Technology (NUST)** | MS | 2013–2017 | GIS & Remote Sensing  | 3.47 |
   | **Punjab University, Lahore** | BS (Hons) – *3rd Position* | 2009–2013 | Space Sciences | 3.50 |
-  | **Punjab College, Lahore** | F.Sc | 2009 | Pre-Engineering | 815 |
-  | **The Punjab School, Lahore** | Matric | 2007 | Science | 703 |
+
 
   ---
 
