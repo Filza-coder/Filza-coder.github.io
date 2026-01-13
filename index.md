@@ -169,3 +169,5 @@ To obtain a responsible and challenging position that utilizes my educational ba
 <p align="center">
   ⭐ If you like my profile, don't forget to star my repositories!
 </p>
+#### Map of United Tribes Technical College
+<embed type="text/html" src="C:\Users\Law\Downloads\haskell.html" width="600" height="600">
