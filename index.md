@@ -66,17 +66,8 @@ My MS thesis investigated the **spatial distribution of bio-aerosols** at NUST H
 
 ## 🗂️ Portfolio Repositories
 
-### 1. Bioaerosol Spatial ML
 
-<a href="https://github.com/Filza-coder/bioaerosol-spatial-ml"><img src="https://img.shields.io/badge/GitHub-bioaerosol--spatial--ml-2D6A4F?style=flat-square&logo=github" alt="Repo"/></a>
-
-Spatial machine learning pipeline for predicting atmospheric bioaerosol concentrations from land use variables. Based on MS thesis research — end-to-end GeoAI workflow including feature engineering from LULC data, Random Forest regression, and spatial validation.
-
-**Stack:** Python · Scikit-learn · Geopandas · Matplotlib
-
----
-
-### 2. LULC Classification — Random Forest (Sentinel-2)
+### 1. LULC Classification — Random Forest (Sentinel-2)
 
 <a href="https://github.com/Filza-coder/lulc-random-forest"><img src="https://img.shields.io/badge/GitHub-lulc--random--forest-2D6A4F?style=flat-square&logo=github" alt="Repo"/></a>
 
@@ -86,7 +77,7 @@ Multi-class land use/land cover classification using Sentinel-2 spectral signatu
 
 ---
 
-### 3. GeoAI Chatbot
+### 2. GeoAI Chatbot
 
 <a href="https://github.com/Filza-coder/geoai-chatbot"><img src="https://img.shields.io/badge/GitHub-geoai--chatbot-2D6A4F?style=flat-square&logo=github" alt="Repo"/></a>
 
