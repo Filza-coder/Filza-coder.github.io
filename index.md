@@ -37,27 +37,28 @@ My MS thesis investigated the **spatial distribution of bio-aerosols** at NUST H
 
 ## 🔬 Featured Research Project
 
-### ⭐ GeoAI Bioaerosol Prediction — NUST Campus
+### ⭐ GIS-Integrated Analysis of Spatial and Vertical Variability in Airborne Pollen and Fungal Spore Concentrations Across an Urban Campus in Islamabad, Pakistan
 
 <a href="https://github.com/Filza-coder/geoai-bioaerosol-prediction"><img src="https://img.shields.io/badge/GitHub-geoai--bioaerosol--prediction-2D6A4F?style=flat-square&logo=github" alt="Repo"/></a>
 <a href="https://github.com/Filza-coder/geoai-bioaerosol-prediction/blob/main/notebooks/01_EDA_BioAerosol_NUST.ipynb"><img src="https://img.shields.io/badge/Colab-EDA%20Notebook-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" alt="Notebook"/></a>
 
-**Research question:** How do land use/land cover variables and micrometeorological conditions predict atmospheric bioaerosol concentrations across urban campus environments?
+**Research question:** How do land use/land cover variables and micrometeorological conditions explain spatial variability in atmospheric bioaerosol concentrations across an urban campus environment?
 
 **What I did:**
-- Collected original field data at **6 sampling sites** across NUST H-12 campus
-- Measured daily pollen and fungal spore concentrations across **12 sampling days**
-- Applied **Random Forest** to identify LULC predictors of pollen and fungus density
-- Performed **IDW spatial interpolation** to generate campus-wide concentration maps
+- Collected original field data at **6 sampling sites** across NUST H-12 campus, Islamabad
+- Measured daily pollen and fungal spore concentrations across **12 sampling days** (April 2016)
+- Extracted LULC variables (grass land percentage, building density, vegetation cover) within 200 m buffers
+- Applied **Random Forest** to identify dominant predictors of pollen and fungal spore density
+- Performed **SHAP analysis** to interpret model predictions and feature contributions
 - Confirmed meteorological correlations (wind speed r=0.60 at Site 2)
 
 **Key ML findings:**
 
 | Target | Top Predictor | Insight |
 |--------|--------------|---------|
-| Pollen concentration | Building Density | Built surfaces suppress airflow |
-| Fungus concentration | Grass Land % | Vegetation drives spore release |
-| Spatial hotspot | Site 2 (highest pollen) | Open corridor effect confirmed |
+| Pollen concentration | Building Density | Buildings & topography modulate dispersal — Site 4 had more grass but lower pollen due to obstruction |
+| Fungus concentration | Grass Land % | Grass cover is primary substrate for *Alternaria* & *Aspergillus* communities |
+| Model evaluation | Random Forest (LOO-CV) | Superior to gradient boosting & linear regression — confirms non-linear LULC relationships |
 
 **Stack:** Python · Pandas · Scikit-learn · Matplotlib · Geopandas · Scipy · Jupyter
 
